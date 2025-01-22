@@ -6,17 +6,16 @@ import path from "path";
 export default defineConfig({
   plugins: [react()],
   resolve: {
-    extensions: [".js", ".jsx", ".json"],
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
   build: {
     outDir: "dist",
-    assetsDir: "assets",
+    minify: "esbuild",
     rollupOptions: {
-      input: {
-        main: path.resolve(__dirname, "index.html"),
+      output: {
+        manualChunks: undefined,
       },
     },
   },
