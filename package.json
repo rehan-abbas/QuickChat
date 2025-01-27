@@ -8,10 +8,6 @@
     "start": "npm run start --prefix backend",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rehan-abbas/QuickChat.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
