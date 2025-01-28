@@ -1,7 +1,7 @@
 import { create } from "zustand";
 import toast from "react-hot-toast";
 import { axiosInstance } from "../lib/Axios";
-import { useAuthStore } from "./useAuthStore";
+import { useAuthStore } from "@/store/useAuthStore";
 
 export const useChatStore = create((set, get) => ({
   messages: [],
@@ -36,7 +36,6 @@ export const useChatStore = create((set, get) => ({
   sendMessage: async (messageData) => {
     const { selectedUser, messages } = get();
     try {
-
       const messageSize = new Blob([messageData.content]).size;
       const MAX_MESSAGE_SIZE = 10 * 1024 * 1024; // 10MB limit
 
