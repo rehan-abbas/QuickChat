@@ -3,7 +3,6 @@
 🚀 A modern real-time chat application built with **MERN**, **Socket.io**, **Zustand**, **TailwindCSS**, and **Daisy UI**.  
 Supports authentication with **JWT**, online user tracking, and real-time messaging.
 
-![Chat App Preview](https://via.placeholder.com/1200x600) <!-- Replace with actual screenshot -->
 
 ---
 
@@ -14,36 +13,33 @@ Supports authentication with **JWT**, online user tracking, and real-time messag
 ✅ **Online User Status**  
 ✅ **Global State Management** (Zustand)  
 ✅ **Responsive UI** (TailwindCSS + Daisy UI)  
-✅ **Optimized Error Handling** (Client & Server)  
+✅ **Optimized Error Handling** (Client & Server)
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Technology | Description |
-|------------|-------------|
-| **MongoDB** | NoSQL Database |
-| **Express.js** | Backend Framework |
-| **React.js** | Frontend Library |
-| **Node.js** | JavaScript Runtime |
-| **Socket.io** | Real-time WebSockets |
-| **Zustand** | Global State Management |
-| **TailwindCSS + Daisy UI** | Styling Framework |
+| Technology                 | Description             |
+| -------------------------- | ----------------------- |
+| **MongoDB**                | NoSQL Database          |
+| **Express.js**             | Backend Framework       |
+| **React.js**               | Frontend Library        |
+| **Node.js**                | JavaScript Runtime      |
+| **Socket.io**              | Real-time WebSockets    |
+| **Zustand**                | Global State Management |
+| **TailwindCSS + Daisy UI** | Styling Framework       |
 
 ---
 
 ## Screenshots
 
-### Login Page
-![Login Page](screenshots/Login.png)
-
-### Chat Interface
-![Chat Interface](screenshots/Chat.png)
-
-### Theme Selection
-![Theme Selection](screenshots/Settings.png)
-
-### Dashboard Page
-![Dashboard Page](screenshots/Dashboard.png)
-
-
+<div align="center">
+  <h3>Login Page</h3>
+  <img src="screenshots/Login.png" alt="Login Page" width="800"/>
+  
+  <h3>Chat Interface</h3>
+  <img src="screenshots/Chat.png" alt="Chat Interface" width="800"/>
+  
+  <h3>Dashboard</h3>
+  <img src="screenshots/Dashboard.png" alt="Dashboard" width="800"/>
+</div>
