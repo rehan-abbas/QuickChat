@@ -35,11 +35,11 @@ Supports authentication with **JWT**, online user tracking, and real-time messag
 
 <div align="center">
   <h3>Login Page</h3>
-  <img src="screenshots/Login.png" alt="Login Page" width="800"/>
+  <img src="/backend/screenshots/Login.png" alt="Login Page" width="800"/>
   
   <h3>Chat Interface</h3>
-  <img src="screenshots/Chat.png" alt="Chat Interface" width="800"/>
+  <img src="/backend/screenshots/Chat.png" alt="Chat Interface" width="800"/>
   
   <h3>Dashboard</h3>
-  <img src="screenshots/Dashboard.png" alt="Dashboard" width="800"/>
+  <img src="/backend/screenshots/Dashboard.png" alt="Dashboard" width="800"/>
 </div>
