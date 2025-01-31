@@ -3,7 +3,6 @@
 🚀 A modern real-time chat application built with **MERN**, **Socket.io**, **Zustand**, **TailwindCSS**, and **Daisy UI**.  
 Supports authentication with **JWT**, online user tracking, and real-time messaging.
 
-
 ---
 
 ## ✨ Features
@@ -42,4 +41,7 @@ Supports authentication with **JWT**, online user tracking, and real-time messag
   
   <h3>Dashboard</h3>
   <img src="/backend/screenshots/Dashboard.png" alt="Dashboard" width="800"/>
+
+   <h3>Theme selection</h3>
+  <img src="/backend/screenshots/Settings.png" alt="Dashboard" width="800"/>
 </div>
